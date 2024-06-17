@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK-04</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .sidenav {
+            height: 50%;
+            width: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            row-gap: 10px;
+            overflow-x: hidden;
+        }
+
+        .sidenav a {
+            border-radius: 10%;
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            background-color: #e830a7;
+            color: #c9e239;
+        }
+
+        .content {
+            margin-left: 80px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidenav">
+        <a href="#" style="background: green;"> </a>
+        <br>
+        <a href="#" style="background: blue;"> </a>
+        <br>
+        <a href="#" style="background: red;"> </a>
+        <br>
+        <a href="#" style="background: black;"> </a>
+    </div>
+
+    <div class="content">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS TASK-02</title>
+<style>
+.navbar {
+  margin-left: 25%;  
+  overflow: hidden;
+  background-color: #b5b4b4;
+}
+.navbar a {
+    font-size: 25px;
+  float: left;
+  display: block;
+  color: #4b40df;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #817c7c;
+  color: rgba(236, 244, 235, 0.982);
+}
+.vertical-navbar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #85d2f4;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.vertical-navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #0d62da;
+  display: block;
+}
+.vertical-navbar a:hover {
+  background-color: #f7c604;
+  color: rgba(236, 244, 235, 0.982);
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#java">Java</a>
+  <a href="#css">CSS</a>
+  <a href="#html">HTML</a>
+</div>
+<div class="vertical-navbar">
+    <a href="#home">Home</a>
+    <a href="#java">Java</a>
+    <a href="#css">CSS</a>
+    <a href="#html">HTML</a>
+    <a herf="#bootstrap">Bootstrap</a>
+  </div>
+</body>
+</html>
